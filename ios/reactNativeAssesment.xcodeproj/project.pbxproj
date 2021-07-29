@@ -11,6 +11,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		29F5A10372C442739B8A683E /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 548001A04D894933A0C137CF /* Quicksand-Regular.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -18,8 +19,12 @@
 		580F8DA48DDD55087894DFB1 /* libPods-reactNativeAssesment-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8857DB5A12314A3CE1296B16 /* libPods-reactNativeAssesment-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		890D34F50723C399C0F92C4D /* libPods-reactNativeAssesment-reactNativeAssesmentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDB567F931A092CBC2892CA /* libPods-reactNativeAssesment-reactNativeAssesmentTests.a */; };
+		9D66C15D07F543069571CD99 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 136FFE8FE2AD4F979CD555B8 /* Quicksand-Medium.ttf */; };
 		A317DD2EBA8E10A979DE1863 /* libPods-reactNativeAssesment-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B315B7EA624A9667F0DAC751 /* libPods-reactNativeAssesment-tvOSTests.a */; };
+		AC565E4826B35E3400C9D733 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 548001A04D894933A0C137CF /* Quicksand-Regular.ttf */; };
+		AC565E4926B35E3800C9D733 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 136FFE8FE2AD4F979CD555B8 /* Quicksand-Medium.ttf */; };
 		B7923B0EC4D6BBB9BFC6108F /* libPods-reactNativeAssesment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04271D8464BD2DEBC8D6D7E3 /* libPods-reactNativeAssesment.a */; };
+		F53BDB390EDE4E36AE4843FD /* opensans-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0A02503D444537B934F890 /* opensans-regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,7 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* reactNativeAssesmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reactNativeAssesmentTests.m; sourceTree = "<group>"; };
 		04271D8464BD2DEBC8D6D7E3 /* libPods-reactNativeAssesment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNativeAssesment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		136FFE8FE2AD4F979CD555B8 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-Medium.ttf"; path = "../src/assets/fonts/Quicksand-Medium.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* reactNativeAssesment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactNativeAssesment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = reactNativeAssesment/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = reactNativeAssesment/AppDelegate.m; sourceTree = "<group>"; };
@@ -57,8 +63,10 @@
 		2D02E4901E0B4A5D006451C7 /* reactNativeAssesment-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reactNativeAssesment-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FDB567F931A092CBC2892CA /* libPods-reactNativeAssesment-reactNativeAssesmentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNativeAssesment-reactNativeAssesmentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47179C9F236C71E7DFCEA14A /* Pods-reactNativeAssesment-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeAssesment-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-reactNativeAssesment-tvOSTests/Pods-reactNativeAssesment-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		548001A04D894933A0C137CF /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-Regular.ttf"; path = "../src/assets/fonts/Quicksand-Regular.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = reactNativeAssesment/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8857DB5A12314A3CE1296B16 /* libPods-reactNativeAssesment-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNativeAssesment-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0A02503D444537B934F890 /* opensans-regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "opensans-regular.ttf"; path = "../src/assets/fonts/opensans-regular.ttf"; sourceTree = "<group>"; };
 		A078B83F02B20A770B7D13C9 /* Pods-reactNativeAssesment-reactNativeAssesmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeAssesment-reactNativeAssesmentTests.release.xcconfig"; path = "Target Support Files/Pods-reactNativeAssesment-reactNativeAssesmentTests/Pods-reactNativeAssesment-reactNativeAssesmentTests.release.xcconfig"; sourceTree = "<group>"; };
 		AA3E39567B822AFFE38AF653 /* Pods-reactNativeAssesment-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeAssesment-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-reactNativeAssesment-tvOS/Pods-reactNativeAssesment-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		B07DF1087394B176216F36AF /* Pods-reactNativeAssesment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeAssesment.debug.xcconfig"; path = "Target Support Files/Pods-reactNativeAssesment/Pods-reactNativeAssesment.debug.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +157,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		828EFC842F974D94B1D02B82 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9E0A02503D444537B934F890 /* opensans-regular.ttf */,
+				136FFE8FE2AD4F979CD555B8 /* Quicksand-Medium.ttf */,
+				548001A04D894933A0C137CF /* Quicksand-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +183,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D6A981E71624CB39CE34E8E2 /* Pods */,
+				828EFC842F974D94B1D02B82 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -194,7 +213,6 @@
 				227BB6C1D360BB59669FA388 /* Pods-reactNativeAssesment-tvOSTests.debug.xcconfig */,
 				47179C9F236C71E7DFCEA14A /* Pods-reactNativeAssesment-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -294,6 +312,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 288Y8ABQ3X;
 						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -333,6 +352,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC565E4826B35E3400C9D733 /* Quicksand-Regular.ttf in Resources */,
+				AC565E4926B35E3800C9D733 /* Quicksand-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +363,9 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F53BDB390EDE4E36AE4843FD /* opensans-regular.ttf in Resources */,
+				9D66C15D07F543069571CD99 /* Quicksand-Medium.ttf in Resources */,
+				29F5A10372C442739B8A683E /* Quicksand-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -656,6 +680,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 288Y8ABQ3X;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = reactNativeAssesment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -679,6 +704,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 288Y8ABQ3X;
 				INFOPLIST_FILE = reactNativeAssesment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (

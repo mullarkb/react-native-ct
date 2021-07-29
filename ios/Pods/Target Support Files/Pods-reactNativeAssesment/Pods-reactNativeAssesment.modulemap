@@ -1,0 +1,6 @@
+module Pods_reactNativeAssesment {
+  umbrella header "Pods-reactNativeAssesment-umbrella.h"
+
+  export *
+  module * { export * }
+}
