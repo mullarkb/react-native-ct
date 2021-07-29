@@ -3,10 +3,7 @@ import {
   SafeAreaView,
   StyleSheet,
   ScrollView,
-  Text,
-  TouchableOpacity,
   View,
-  Modal,
   BackHandler,
 } from "react-native";
 import { useDispatch, useSelector } from "react-redux";

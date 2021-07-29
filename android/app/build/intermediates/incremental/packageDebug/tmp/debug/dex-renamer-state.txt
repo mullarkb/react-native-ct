@@ -1,4 +1,0 @@
-#Thu Jul 29 23:17:15 IST 2021
-base.0=/Users/brianmullarkey/Documents/repos/personal/job applications/cartrawler/mobility-react-native-assessment/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
