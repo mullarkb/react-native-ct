@@ -12,6 +12,7 @@ import { setSelectedProduct } from "../store/actions";
 import TimesCircleSolid from "../assets/logos/TimesCircleSolid";
 import {categoryImage, supplierImage} from "../utils/mixins";
 
+
 const ProductModal = () => {
   const dispatch = useDispatch();
   const selectedProduct = useSelector((state) => state.selectedProduct);
@@ -119,7 +120,7 @@ const styles = StyleSheet.create({
   closeIcon: {
     position: "absolute",
     right: 20,
-    top: 20,
+    top: 40,
   },
   table: {
     width: "100%",
